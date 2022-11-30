@@ -1,0 +1,118 @@
+.backgroundImage {
+
+    /* display: flex; */
+    position: relative;
+    /* justify-content: space-around; */
+
+
+}
+
+.backgroundRose {
+
+    /* height: 100%; */
+    width: 500px;
+    height: 726px;
+    background-color: #F6E6DE;
+    position: absolute;
+    right: 0;
+    top:0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+
+}
+
+.iconLivreBlanc {
+
+    position: absolute;
+    right: 0;
+    border-top-right-radius: 20px;
+
+
+}
+
+.backgroundFormLivreBlanc {
+
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 570px;
+    position: relative;
+   
+    /* height: 630px; */
+
+}
+
+#whitepaperHeader {
+
+    position: relative;
+
+
+}
+
+.backgroundFormLivreBlanc {
+
+    position: absolute;
+    top: 70px;
+    right: 70px;
+
+
+
+}
+
+.backgroundFormLivreBlanc h3 {
+    padding-top: 70px;
+    padding-bottom: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.6rem;
+   
+
+}
+
+#choiceToDownload  {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    font-weight: bold;
+    font-size: 00.9rem;
+}
+
+.amdevwhitepaper {
+
+    border-bottom: 3px solid #3BB2E9;
+    padding-bottom: 15px;
+    color: #3BB2E9;
+   
+
+}
+
+.buttonToDownload button {
+
+    background-color:#0EA0E4;
+    height: 40px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    text-align: center;
+
+}
+
+.buttonToDownload {
+
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}
+
+.labelDownload {
+
+    font-weight: bold;
+    font-size: 0.9rem;
+
+}
+

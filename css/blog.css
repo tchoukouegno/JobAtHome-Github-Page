@@ -1,0 +1,354 @@
+.ourBlog {
+
+    background-color: #E2F2FD;
+    border-radius: 20px;
+    height: 30px;
+    width: 85px;
+    text-align: center;
+    padding-top: 6px;
+    color: #129FE4;
+    font-weight: bold;
+    font-size: 0.8rem;
+    position: absolute;
+    left: 46%;
+    
+
+}
+
+.SearchArticleBar {
+
+    position: absolute;
+    left: 37%;
+    padding-top: 20px;
+    
+
+}
+
+#headerBlogArticle h1 {
+
+    font-weight: bold;
+
+}
+
+#headerBlogArticle .guide {
+
+    font-size: 1.2rem;
+
+}
+
+.Ourblog {
+
+    position: relative;
+    /* background-color: red; */
+    width: 100%;
+    height: 40px;
+    padding-bottom: 20px;
+
+}
+
+.searchArticleBar {
+
+    position: relative;
+    width: 350px;
+
+}
+
+.iconSearchArticles {
+
+    position: absolute;
+    left: 10px;
+    top: 10px;
+
+}
+
+.searchArticleBar input::placeholder {
+
+    padding-left: 7px;
+
+}
+
+.searchArticleBar input {
+
+    padding-left: 30px;
+    border-radius: 7px;
+
+}
+
+#headerBlogArticle {
+
+    text-align: center;
+    position: relative;
+   
+
+}
+
+#HeaderBlogArticle {
+
+    height: 38vh;
+    position: relative;
+    /* background-color: red; */
+
+}
+
+.rightBand {
+
+    position: relative;
+
+}
+
+.rightBand1 {
+
+    position: absolute;
+    right: 0;
+
+}
+
+.rightBand2 {
+
+    position: absolute;
+    right: 0;
+    top: 66px;
+
+}
+
+.rightBand3 {
+
+    position: absolute;
+    right: 0;
+    top: 104px;
+
+}
+
+.leftBand {
+
+    position: relative;
+    /* background-color: red; */
+    height: 425px;
+    /* background-color: red; */
+
+}
+
+.leftBand1 {
+
+    position: absolute;
+    bottom: 92px;
+
+}
+
+.leftBand2 {
+
+    position: absolute;
+    bottom: 0;
+
+}
+
+.blogNewsletter {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#BlogNewsletter {
+
+    position: absolute;
+    top: 65px;
+    z-index: 1;
+    right: 103px;
+}
+
+.newsletter {
+
+    width: 415px;
+    /* background-color: red; */
+    border-radius: 10px;
+    border:1px solid #F6F6F8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #FFFFFF;
+    height: 100%;
+    border: 1px solid #CDCDCD;
+    
+    
+
+}
+
+.newsletterTitle {
+
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-align: center;
+    /* background-color: red; */
+
+}
+
+.newsletter .actuality {
+
+    font-size: 0.9rem;
+    text-align: center;
+
+}
+
+.newsletter input {
+
+    border: 1px solid #CDCDCD;
+
+
+}
+
+main {
+
+    position: relative;
+
+}
+
+#cardBlogGrid {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 35px;
+    /* background-color: red; */
+    /* padding-left: 5px; */
+    padding-right: 10px;
+
+}
+
+.cardBlogImg {
+
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    object-fit: cover;
+   
+
+}
+
+.cardBlog {
+
+    border-radius: 15px;
+    background-color: #FAFBFF;
+    border: 1px solid #F1F2F3 ;
+    height: 460px;
+
+}
+
+.cardBlog:hover {
+
+    background-color: #FFFFFF;
+    transform: translate3d(0,-7px,0);
+    box-shadow: 1px 13px 24px -22px rgba(0,0,0,0.9);
+    cursor: pointer;
+}
+
+.update {
+
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+
+}
+
+.cardBlogTitle {
+
+    font-weight: bold;
+    padding-top: 10px;
+   
+}
+
+.cardBlogText {
+
+    color: #9596A1;
+    padding-top: 7px;
+
+
+}
+
+.cardfoot {
+
+    border-top: 1px solid #F1F1F3;
+    padding-top: 7px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.cardfoot span {
+
+    display: block;
+
+
+
+}  
+
+.cardfootText {
+
+    font-size: 0.8rem;
+    color: #9596A1;
+    
+}
+
+.numberPageArticleActive {
+
+    background-color:#129FE4;
+    width: 50px;
+    border-radius: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    height: 25px;
+    
+
+}
+
+.numberPageArticleNext {
+
+    background-color:#F7F7F7;
+    width: 50px;
+    border-radius: 15px;
+    color: #129FE4;
+    text-align: center;
+    height: 25px;
+
+}
+
+.numberPageArticleOther {
+
+    background-color:#F7F7F7;
+    width: 50px;
+    border-radius: 15px;
+    text-align: center;
+    height: 25px;
+
+}
+
+.numberPageArticleLast {
+
+    background-color:#F7F7F7;
+    width: 50px;
+    height: 25px;
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+.numberPageArticle {
+
+    display: flex;
+    justify-content: space-between;
+    /* gap: 15px; */
+    cursor: pointer;
+    /* background-color: red; */
+    /* height: 60px; */
+    width: 350px;
+    /* height: 80px; */
+
+}
+
+.Iconly {
+
+    transform: translate3d(0,-3px,0);
+
+}
+

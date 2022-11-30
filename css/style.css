@@ -1,3 +1,11 @@
+@import './top5.css';
+@import './candidat.css';
+@import './contact.css';
+@import './livreblanc.css';
+@import './blog.css';
+
+
+
 
 *, *::before, *::after{
     box-sizing: border-box;
@@ -12,9 +20,9 @@ html,body {
 
 body {
 
-    background-image: url(../images/backgroundJobAtHome.png);
+     background-image: url(../images/backgroundCJobAtHome\ 2.png); 
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover; 
 
 
 }
@@ -50,6 +58,7 @@ a {
     text-decoration:none;
     color: #011118;
     display: block;
+    
 
 }
 
@@ -64,13 +73,13 @@ a {
 .btnContact {
 
     background-color: #0EA0E4;
-    width: 100px;
+    width: 110px;
     text-align: center;
-    height: 45px;
+    height: 40px;
     border-radius: 10px;
     color: #FFFFFF;
-    padding-top: 10px;
-    transform: translate3d(0,-10px,0);
+    padding-top: 8px;
+    transform: translate3d(0,-8px,0);
 
 }
 
@@ -384,9 +393,15 @@ h6 {
 
     width: 180px;
     color: #0EA0E4;
-    background-color: #FBFBFB;
-    border: 1px solid #F8F8F8;
+    background-color: #9596a100;
+    border: 1px solid #9596a192;
 
+
+}
+
+#btnExpert:hover {
+
+    color: #FFA42E;
 
 }
 
@@ -426,12 +441,12 @@ h6 {
 
 }
 
-/* .escalier2 {
+.escalier2 {
 
     transform: translate3d(147px,70px,0);
 
 
-} */
+}
 
 .escalier3 {
 
@@ -514,12 +529,12 @@ h6 {
 .entreprise {
 
     position: absolute;
-    left: 230px;
+    text-align: center;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     top: 20px;
-    width: 810px;
     color: #696A79;
+    text-transform: uppercase;
 
 }
 
@@ -534,6 +549,14 @@ h6 {
 .cardServiceTitle {
 
     text-align: center;
+    font-weight: bold;
+
+}
+
+#infrastructure {
+
+    padding-top: 20px;
+
 
 }
 
@@ -555,6 +578,7 @@ h6 {
     text-align: center;
     font-size: 0.86rem;
     color: #696A79;
+    padding-top: 10px;
 
 }
 
@@ -779,6 +803,7 @@ h6 {
 .equipe {
 
     font-size: 1.1rem;
+    text-transform: uppercase;
     
 
 }
@@ -992,25 +1017,25 @@ h6 {
 #bntjoinCommunity {
 
     width: 220px;
-    padding-top: 13px;
+    padding-top: 15px;
     height: 50px;
     transform: translate3d(0,16px,0);
-
+    font-size: 0.9rem;
 
 }
 
 #amExpert {
 
     display: flex;
-    gap: 35px;
+    gap: 55px;
     border: 1px solid #EFF0F3;
     border-radius: 10px;
-    height: 164px;
-    width: 890px;
-    padding: 30px;
-    transform: translate3d(130px,0,0);
+    height: 134px;
+    width: 950px;
+    padding: 25px;
     background-color: #FFFFFF;
-
+    position: absolute;
+    right: 130px ;
 
 }
 
@@ -1032,6 +1057,8 @@ h6 {
 
     /* background-color: aqua; */
     padding: 200px;
+    position:relative;
+    height: 250px;
 
 }
 
@@ -1216,13 +1243,14 @@ h6 {
 
     font-weight: bold;
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 
 }
 
 .anothercountry {
 
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    text-align: center;
     /* width: 290px; */
     /* background-color: red; */
 }
@@ -1246,7 +1274,7 @@ h6 {
 
     display: flex;
     justify-content: space-between;
-
+   
 }
 
 .about {
@@ -1261,8 +1289,59 @@ h6 {
 
 .aboutJobatHome {
 
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    font-weight: bold;
 
+
+}
+
+.linkUtils {
+
+    position: relative;
+    /* background-color: red; */
+
+}
+
+.seizelinkUtils {
+
+    font-size: 0.8rem;
+
+}
+
+.FooterContainer {
+
+    padding-left: 120px;
+    padding-right: 10px;
+
+}
+
+.locationIcon {
+
+    height: 25px;
+
+}
+
+.seizeContactUtils {
+
+    font-size: 0.9rem;
+    font-weight: 600;
+    display: flex;
+    gap: 5px;
+    
+}
+
+.seizeContactUtils span {
+
+    display: block;
+    transform: translate3d(0,5px,0);
+}
+
+.weShirng {
+
+    position: absolute;
+    display: block;
+    right: -27px;
+    top: 78px;
 
 }
 

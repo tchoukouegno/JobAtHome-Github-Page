@@ -1,0 +1,224 @@
+.contactImg {
+
+    position: relative;
+    height: 500px;
+   
+
+
+}
+
+.contactPadding {
+
+     padding-top: 95px;
+     padding-left:85px;
+
+}
+
+#sbmtButtonContact {
+
+    height: 53px;
+
+}
+
+.girlContact {
+
+
+    position: absolute;
+    left: 50px;
+
+}
+
+.accessPoint {
+
+    position: absolute;
+    z-index: 1;
+    left: 90px;
+    top: 100px;
+
+}
+
+.dataServer {
+
+    position: absolute;
+    z-index: 1;
+    bottom: 150px;
+    left: 25px;
+
+}
+
+.cloudIcon {
+
+    position: absolute;
+    z-index: 1;
+    bottom: 55px;
+    left: 195px;
+
+}
+
+.greenCircle {
+
+    position: absolute;
+    z-index: 1;
+    bottom: 75px;
+    left: 380px;
+
+}
+
+.iconCyber {
+
+    position: absolute;
+    z-index: 1;
+    left: 450px;
+    top: 210px;
+
+}
+
+#contactFlex {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#msg {
+
+    height: 100px;
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+.backgroundForm {
+
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 510px;
+   
+    /* height: 500px; */
+
+}
+
+.backgroundForm h3 {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.4rem;
+
+
+}
+
+.buttonToContact button {
+
+    background-color:#0EA0E4;
+    height: 40px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    text-align: center;
+
+}
+
+.buttonToContact {
+
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}
+
+.borderInput {
+
+    border-radius: 5px;
+
+}
+
+
+.formContact {
+
+    position: relative;
+
+}
+
+.orangeFloor {
+
+    position: absolute;
+    right:0;
+    /* background-color: red; */
+    border-top-right-radius: 20px;
+
+}
+
+.blueFlech {
+
+    position: absolute;
+    left: -190px;
+    bottom: 200px;
+    z-index: 1;
+
+}
+
+.highLight {
+
+    position: absolute;
+    bottom: -45px;
+    left: -115px;
+
+}
+
+#HeaderHeight {
+
+    height: 100vh;
+
+}
+
+.seeUs  {
+
+    text-align: center;
+
+}
+
+.seeUs h1 {
+
+    font-weight: bold;
+    font-size: 2.8rem;
+
+
+}
+
+.seeUs p {
+
+    font-size: 1.3rem;
+    color: #7D7E8B;
+
+}
+
+.mapPosition {
+
+    padding-left: 105px;
+    padding-right: 105px;
+
+}
+
+#infoContact {
+
+
+    display: flex;
+    justify-content: space-between;
+    padding-left: 105px;
+    padding-right: 105px;
+    text-align: center;
+
+}
+
+.infoContactTitle {
+
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+
