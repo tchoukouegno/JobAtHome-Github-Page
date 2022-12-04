@@ -1,0 +1,204 @@
+.articleTicle {
+
+text-align: center;
+position: relative;
+
+}
+
+.articleTicle h1 {
+
+    font-weight: bold;
+    
+
+}
+
+.pictureAndNameAuhtor span {
+
+    display: block;
+    font-weight: bold;
+    font-size: 0.9rem;
+
+
+}
+
+.pictureAndNameAuhtor {
+
+    display: flex;
+    gap: 7px;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 45%;
+    padding-top: 10px;
+    
+
+}
+
+.AuthorName {
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+
+}
+
+#RightBand {
+
+    transform: translate3d(0,50px,0);
+
+}
+
+.articleImg {
+
+    position: absolute;
+    z-index: 1;
+    top: 332px;
+    left: 50px;
+    
+}
+
+.TextArticle {
+
+    padding-left: 255px;
+    padding-right: 255px;
+    color: #828390;
+    text-align: justify;
+
+
+}
+
+.textArticle {
+
+    padding-top: 20px;
+
+}
+
+#HeaderArticle {
+
+    height: 120vh;
+
+}
+
+.introArticle {
+
+    border-bottom: 1px solid #82839020;
+
+}
+
+.richText {
+
+    padding-top: 10px;
+
+}
+
+.citationAuthor {
+
+    padding-top: 10px;
+    border-left: 3px solid #9579D7;
+    padding-left: 15px;
+
+
+}
+
+.citationAuthor p {
+
+    font-weight: bold;
+    color: #000000;
+    font-size: 1.1rem;
+
+}
+
+.footCircle {
+
+    height: 25px;
+    width: 22px;
+    border-radius: 50%;
+    background-color: #F4F1FF;
+
+}
+
+#FootCirle {
+
+    background-color: #E9F0FF;
+
+}
+
+.FlexfootCircle {
+
+    display: flex;
+    gap: 7px;
+
+}
+
+.iconform {
+
+    height: 33px;
+    width: 33px;
+    border-radius: 5px;
+    padding-left: 6px;
+    padding-top: 3px;
+    border: 1px solid #98a2b33b;
+    background-color: #FFFFFF;
+
+}
+
+.copyLink {
+
+    height: 33px;
+    border: 1px solid #98a2b33b;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+
+}
+
+.FlexfootIcon {
+
+    display: flex;
+    gap: 10px;
+
+}
+
+.FlexfootCircleIcon {
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+
+}
+
+.copy {
+
+    font-weight: bold;
+    font-size: 00.9rem;
+    color: #000000;
+
+}
+
+#seeAllArcticle {
+
+    width: 180px;
+
+}
+
+.blogAllArticle {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#positonNumberPageArticle {
+
+    position: absolute;
+    left: 35%;
+
+}
+
+#CardFoot {
+
+    border-top: 1px solid #98a2b317;
+    padding-top: 10px;
+
+}

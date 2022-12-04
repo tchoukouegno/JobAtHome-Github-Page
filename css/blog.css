@@ -272,7 +272,7 @@ main {
     padding-top: 7px;
     display: flex;
     justify-content: space-between;
-   
+    position: relative;
 }
 
 .cardfoot span {
