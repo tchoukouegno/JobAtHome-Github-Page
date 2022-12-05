@@ -21,6 +21,18 @@
 
 }
 
+.expertiseCircleDetails {
+
+    display: block;
+    height: 17px;
+    width: 17px;
+    background-color: #0EA0E4;
+    border-radius: 50%;
+    transform: translate3d(1px,5px,0);
+
+
+}
+
 .detailsSimpleCircle {
 
     display: block;
@@ -58,6 +70,45 @@
     
 }
 
+#ExpertiseCircledetailtop3 {
+
+    background-color: #DFDFDF;
+    transform: translate3d(14px,5px,0);
+
+
+}
+
+#ExpertiseCircletop3Vald {
+
+    background-color: #DFDFDF;
+    transform: translate3d(13px,4px,0);
+
+}
+
+#ExpertiseCircleVald {
+
+    background-color: #DFDFDF;
+    transform: translate3d(15px,0px,0);
+    
+
+}
+
+#ExpertiseCirclestepdetails {
+
+    background-color: #DFDFDF;
+    transform: translate3d(15px,5px,0);
+
+
+}
+
+#ExpertiseCircleValidation {
+
+    background-color: #DFDFDF;
+    transform: translate3d(15px,4px,0);
+    background-color: #0EA0E4;
+    
+}
+
 .FlexStep {
 
     display: flex;
@@ -76,6 +127,38 @@
 .step {
 
     transform: translate3d(0,4px,0);
+    color: #8A8C8D;
+
+}
+
+
+
+.stepValidation {
+
+    transform: translate3d(0,7px,0);
+    color: #8A8C8D;
+
+
+}
+
+.stepExpertisetop3 {
+
+    transform: translate3d(0,5px,0);
+    color: #8A8C8D;
+
+}
+
+.stepExpertisevalidation {
+
+    transform: translate3d(0,6px,0);
+    color: #8A8C8D;
+
+
+}
+
+.stepValidationsdetails {
+
+    transform: translate3d(0,7px,0);
     color: #8A8C8D;
 
 }
@@ -212,6 +295,189 @@
 
 }
 
+.countryNumber {
+
+    display: flex;
+
+}
+
+.valideRequest {
+
+    text-align: center;
+    padding-top: 70px;
+   
+}
+
+.valideRequest img {
+
+    width: 220px;
+
+}
+
+.receiveRequest {
+
+    background-color: #F9FAFB;
+    text-align: center;
+    color: #59BE51;
+    padding-top: 35px;
+    position: relative;
+    height: 135px;
+    width: 380px;
+
+}
+
+.callAfter {
+
+    background-color: #F9FAFB;
+    text-align: center;
+    padding-top: 35px;
+    position: relative;
+    height: 85px;
+    width: 380px;
+
+
+}
+
+.lastInformation {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    transform: translate3d(230px,0,0);
+    width: 380px;
+
+
+}
+
+.receiveRequest p {
+
+    font-size: 1.1rem;
+
+
+}
+
+.iconReceive {
+
+    position: absolute;
+    top: -25px;
+    left: 150px;
+    height: 45px;
+    width: 45px;
+
+
+}
+
+.countryNumber input {
+
+        border-top-left-radius: none;
+        border-bottom-left-radius: none;
+        border-left: none;
+
+}
+
+.Anything {
+
+    font-size: 0.9rem;
+
+}
+
+.countryNumberselected {
+
+    border: none;
+    width: 17%;
+    display: flex;
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-top: 1px solid #8a8c8d14 ;
+    border-bottom: 1px solid #8a8c8d14 ;
+    border-left:1px solid #8a8c8d14  ;
+    border-right: 1px solid transparent;
+    
+}
+
+.choice {
+
+    font-size: 00.8rem;
+    font-weight: bold;
+
+
+}
+
+.choiceTime {
+
+    display: flex;
+    position: relative;
+    background-color: #E6F5FD;
+    border: 1px solid #0EA0E4;
+    height: 40px;
+    border-radius: 7px;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.seizeDateTime {
+
+    font-size: 0.8rem;
+    color: #8A8C8D;
+    /* transform: translate3d(0,-5px,0); */
+    display: block;
+
+}
+
+.noReferencetime {
+
+    display: flex;
+
+}
+
+.momentDisponibility {
+
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+    gap: 15px;
+
+
+}
+
+
+.noReference {
+
+    display: flex;
+    position: relative;
+    border: 1px solid #8a8c8d3b;
+    height: 40px;
+    border-radius: 7px;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #FFFFFF;
+
+
+}
+
+.seizeCalendar {
+
+    height: 15px;
+
+
+}
+
+.chevrondownSelected {
+
+    transform: translate3d(0,5px,0);
+
+}
+
+.countryNumber input {
+
+    border-left: none;
+
+}
+
 .btnGrid {
 
     display: grid;
@@ -272,12 +538,39 @@
 
 }
 
+
+.ligneStepColorTop3 {
+
+    height: 2px;
+    background-color:#0EA0E4;
+    width: 100%;
+
+
+}
+
+.ligneStepColorValidation {
+
+    height: 2px;
+    background-color:#0EA0E4;
+    width: 68%;
+
+
+}
 .top3 {
 
     transform: translate3d(5px,2px,0);
     color: #8A8C8D;
 
 }
+
+
+
+.top3top3 {
+
+    transform: translate3d(5px,2px,0);
+   
+}
+
 
 #SearchArticleBar {
 
