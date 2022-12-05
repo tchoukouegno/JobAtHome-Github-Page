@@ -1,0 +1,190 @@
+.searchbyJob {
+
+    display: flex;
+    gap: 20px;
+    padding-top: 50px;
+
+
+}
+
+.searchbyButton {
+
+    width: 140px;
+    height: 40px;
+    border: none;
+    background-color:#0E9DDF;
+   
+}
+
+.headerillustrationdev {
+
+   position: absolute;
+   top: -65px;
+   right: -25px;
+   z-index: 1;
+   height:590px;
+   width: 770px;
+
+}
+
+#headerillustraition {
+
+    height: 75vh;
+
+}
+
+.jobChoiceSimple {
+
+    text-align: center;
+
+
+}
+
+.jobChoiceSimple h2 {
+
+    font-size: 2.8rem;
+    font-weight: bold;
+
+
+}
+
+.jobChoiceSimple p {
+
+
+    color: #9899A4;
+
+}
+
+.filterjob {
+
+    display: flex;
+    border: 1px solid #9899a441;
+    border-radius: 7px;
+    height: 40px;
+    padding: 10px;
+    gap: 5px;
+    background-color: #FFFFFF;
+    transform: translate3d(0,15px,0);
+    cursor: pointer;
+
+}
+
+.filter {
+
+    font-size: 0.9rem;
+
+}
+
+.filtertagsjobs {
+
+    display: flex;
+    justify-content: space-between;
+    padding-left: 170px;
+    padding-right: 180px;
+    padding-top: 40px;
+
+}
+
+.manyJob {
+
+    padding-left: 170px;
+    padding-right: 180px;
+
+}
+
+.detailjob span {
+
+    display: block;
+
+
+}
+
+.detailjob {
+
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.categorieDetailjob span {
+
+    display: block;
+    font-size: 0.9rem;
+    font-weight: bold;
+
+}
+
+
+
+.intituleJob {
+
+    font-size: 00.9rem;
+    transform: translate3d(0,-10px,0);
+    display:block;
+
+}
+
+.categorieDetailjob {
+
+    display: flex;
+    justify-content: space-between;
+    color: #0E9DDF;
+
+}
+
+.jobLocationRemote span {
+
+    display: block;
+    font-size: 00.9rem;
+    color: #868E9F;
+
+}
+
+.jobLocationRemote {
+
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+}
+
+.parameterJob {
+
+    display: flex;
+    gap: 20px;
+
+}
+
+.jobInformation {
+
+    border: 1px solid #868e9f35;
+    padding: 17px;
+    border-radius: 7px;
+    background-color: #FFFFFF;
+
+}
+
+.categoirie {
+
+    font-size: 0.9rem;
+    font-weight: bold;
+
+}
+
+.jobinformationFlex {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.filterheader {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
