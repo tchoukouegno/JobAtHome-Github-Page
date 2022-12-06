@@ -89,6 +89,7 @@
 
     padding-left: 170px;
     padding-right: 180px;
+    position: relative;
 
 }
 
@@ -138,7 +139,16 @@
 
     display: block;
     font-size: 00.9rem;
-    color: #868E9F;
+    color: #70798D;
+    transform: translate3d(0,3px,0);
+
+}
+
+.closeFilter {
+
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
 
 }
 
@@ -186,5 +196,117 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+}
+
+.filterheader h5 {
+
+    font-weight: bold;
+    font-size: 0.95rem;
+
+}
+
+
+
+.keyWordsearch span {
+
+    display: block;
+    color: #70798D;
+    font-size: 0.8rem;
+    
+
+}
+
+.key {
+
+    border-bottom: 2px solid #0EA0E4;
+    padding-bottom: 3px;
+    text-align: center;
+    color: #0EA0E4;
+    font-size: 0.8rem;
+    font-weight: bold;
+
+}
+
+.keyWordsearch {
+
+    display: flex;
+    align-items: center;
+    border: 1px solid #8a8c8d23;
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    justify-content: space-between;
+    padding: 7px;
+
+
+}
+
+.keyFilter {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:20px ;
+    /* flex-direction: column; */
+
+}
+
+.btnFilterReset {
+
+    height: 37px;
+    border: 1px solid #0EA0E4;
+    text-align: center;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    color: #0EA0E4;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 0.9rem;
+    
+
+}
+
+.btnFilterApply {
+
+    height: 37px;
+    border: none;
+    text-align: center;
+    width: 100%;
+    background-color: #0EA0E4;
+    border-radius: 7px;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer; 
+    font-size: 0.9rem;  
+
+}
+
+.btnOptionfilter {
+
+    display: flex;
+    gap: 10px;
+    width: 370px;
+    padding-top: 20px;
+    transform: translate3d(190px,0,0);
+
+
+}
+
+#plusFilters {
+
+    background-color:#FFFFFF;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    width: 780px;
+    height: 200px;
+    border-radius: 7px;
+    position: absolute;
+    z-index: 2;
+    right: 177px;
+    top: 0;
+    box-shadow: 10px 10px 5px #00000006;
+    
 
 }

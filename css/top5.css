@@ -152,6 +152,8 @@
 
 }
 
+
+
 .preselection {
 
     /* background-color: red; */
@@ -171,6 +173,12 @@
     position: relative;
     transform: translate3d(100px,0,0);
 
+}
+
+.participePosition {
+
+
+    height: 90vh;
 
 }
 

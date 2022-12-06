@@ -197,17 +197,24 @@ select {
     /* background-color: red; */
     width: 510px;
     height: 61px;
-    border: 1px solid #F5F5F5 !important;
-    border-top-left-radius: 150px;
+    border: 1px solid #777A88 ;
+    /* border-top-left-radius: 150px;
     border-bottom-left-radius: 150px;
-    /* border: 1px solid #F5F5F5; */
     border-top-right-radius: 255px;
-    /* border-right: 5px solid transparent; */
-    border-bottom-right-radius: 750px;
-    /* transform: skew(-10deg); */
-    -webkit-clip-path: polygon(0 0, 100% 0%, 92% 100%, 0% 100%);
-clip-path: polygon(0 0, 100% 0%, 92% 100%, 0% 100%);
+    border-right: 5px solid transparent;
+    border-bottom-right-radius: 750px; */
+    /* transform: skew(-40deg,10deg); */
+    /* border-radius: 15px; */
+    /* -webkit-clip-path: polygon(0 0, 100% 0%, 92% 100%, 0% 100%);
+clip-path: polygon(0 0, 100% 0%, 92% 100%, 0% 100%); */
+
+
+
+
 }
+
+
+
 
 #searchJob input::placeholder {
 
@@ -221,18 +228,25 @@ clip-path: polygon(0 0, 100% 0%, 92% 100%, 0% 100%);
 
     width: 150px;
     height: 50px;
-    border: none;
+    /* border: none; */
     background-color: #0EA0E4;
-    -webkit-clip-path: polygon(21% 1%, 100% 0%, 100% 100%, 0% 100%);
-    clip-path: polygon(21% 1%, 100% 0%, 100% 100%, 0% 100%);
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    /* border-bottom-left-radius: 200px; */
-    border-top-left-radius: 200px;
+    /* -webkit-clip-path: polygon(21% 1%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(21% 1%, 100% 0%, 100% 100%, 0% 100%); */
+    
+    
+    -webkit-clip-path: polygon(53% 0, 100% 0, 100% 60%, 100% 100%, 0 100%, 4% 82%, 19% 0);
+    clip-path: polygon(53% 0, 100% 0, 100% 60%, 100% 100%, 0 100%, 4% 82%, 19% 0);
+    /* border-top-right-radius: 200px; */
+   border-radius: 10px;
+    /* border-color: red; */
     transform: translate3d(0,5px,0);
+    /* border-left: 20px solid red; */
+    
     
 
 }
+
+
 
 .searchBar {
 

@@ -1070,9 +1070,9 @@ h6 {
     text-align: center;
     height: 300px;
     width: 1240px;
-    background-color: #F1F9FD;
+    background-color: #EBF7FB;
     border-radius: 15px;
-    border: 1px solid #FBFDFF;
+    border: 1px solid #FFFFFF;
     position: relative;
 
 }
@@ -1142,8 +1142,9 @@ h6 {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 30px;
-    border:1px solid #F6F6F8;
+    border:1px solid #70798d28;
     position: relative;
+    background-color: #FFFFFF;
 
 }
 
@@ -1166,7 +1167,7 @@ h6 {
 
     width: 790px;
     height: 74px;
-    border:1px solid #F6F6F8;
+    border:1px solid #70798d28;
     border-radius: 10px;
     padding-left: 20px;
     padding-right: 20px;
@@ -1174,6 +1175,7 @@ h6 {
     padding-top: 23px;
     font-size: 1.2rem;
     position: relative;
+    background-color: #FFFFFF;
 
 }
 
@@ -1205,14 +1207,15 @@ h6 {
 .question {
 
     width: 436px;
-    /* background-color: red; */
+    background-color:#FFFFFF;
     border-radius: 10px;
-    border:1px solid #F6F6F8;
+    border:1px solid #70798d28;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding-left: 25px;
     padding-right: 25px;
+
     
 
 }
@@ -1292,8 +1295,9 @@ h6 {
 
 .aboutJobatHome {
 
-    font-size: 0.8rem;
-    font-weight: bold;
+    /* font-size: 0.8rem; */
+    /* font-weight: bold; */
+    /* color: black; */
 
 
 }
@@ -1307,16 +1311,10 @@ h6 {
 
 .seizelinkUtils {
 
-    font-size: 0.8rem;
+    /* font-size: 0.8rem; */
 
 }
 
-.FooterContainer {
-
-    padding-left: 120px;
-    padding-right: 10px;
-
-}
 
 .locationIcon {
 
@@ -1327,7 +1325,7 @@ h6 {
 .seizeContactUtils {
 
     font-size: 0.9rem;
-    font-weight: 600;
+    /* font-weight: 600; */
     display: flex;
     gap: 5px;
     
@@ -1343,8 +1341,8 @@ h6 {
 
     position: absolute;
     display: block;
-    right: -27px;
-    top: 78px;
+    right: -17px;
+    top: 83px;
 
 }
 

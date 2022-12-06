@@ -131,6 +131,13 @@
 
 }
 
+.stepdetailsdetail {
+
+    transform: translate3d(0,4px,0);
+    color: #000000;
+
+}
+
 
 
 .stepValidation {
