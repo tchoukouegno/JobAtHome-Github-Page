@@ -39,6 +39,21 @@ body {
 
 .dropdown-toggle::after {
     display: none;
+
+}
+
+.dropdown-menu {
+
+    background-color: #E5F4FC;
+    border: 1px solid #FFFFFF;
+   
+
+}
+
+.dropdown-item:hover {
+
+    background-color: #FFFFFF;
+
 }
 
 .imgHeader {
