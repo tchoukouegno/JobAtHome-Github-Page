@@ -20,16 +20,16 @@ html,body {
     font-family: "DM Sans", sans-serif;
 }
 
-/* #bloc_Page {
+#bloc_Page {
 
     max-width: 1400px;
     margin: 0 auto;
 
-} */
+}
 
 body {
 
-     background-image: url(../images/backgroundCJobAtHome\ 2.png); 
+    background-image: url(../images/backgroundCJobAtHome\ 2.png); 
     background-repeat: no-repeat;
     background-size: cover; 
 
@@ -1154,10 +1154,23 @@ h6 {
 
 }
 
-.faqp {
+.faqsTitle {
+
+    display: block;
+
+
+}
+
+/* .faqp {
 
     font-weight: bold;
     font-size: 1.2rem;
+
+} */
+
+summary {
+
+    display: block;
 
 }
 
@@ -1165,20 +1178,42 @@ h6 {
 
     position: absolute;
     right: 20px;
-    top: 35px;
+    top: 20px;
+}
+
+
+.descriptionFaq {
+
+    width: 100%;
+    background-color:#FFFFFF;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom:1px solid #70798d28;
+    border-left:1px solid #70798d28 ;
+    border-right: 1px solid #70798d28;
+    transform: translate3d(0,-8px,0);
+    padding-bottom: 20px;
 
 }
 
+details[open] > summary {
+
+    border-bottom: none;
+
+  }
+
 .faqs {
 
-    width: 790px;
-    height: 74px;
+    /* height: 74px; */
     border:1px solid #70798d28;
+    padding: 15px;
     border-radius: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
     font-weight: bold;
-    padding-top: 23px;
+    /* padding-top: 23px; */
     font-size: 1.2rem;
     position: relative;
     background-color: #FFFFFF;
@@ -1190,6 +1225,8 @@ h6 {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 790px;
+    
 
 }
 
@@ -1203,9 +1240,9 @@ h6 {
 #FAQs {
 
     display: flex;
-    /* background-color: aquamarine; */
-    /* gap: 30px; */
     justify-content: space-between;
+    height: 450px;
+
     
 
 }
@@ -1221,6 +1258,7 @@ h6 {
     justify-content: space-around;
     padding-left: 25px;
     padding-right: 25px;
+    height: 450px;
 
     
 
