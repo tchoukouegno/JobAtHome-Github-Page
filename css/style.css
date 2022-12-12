@@ -6,6 +6,7 @@
 @import './articleblog.css';
 @import './recruteur.css';
 @import './job.css';
+@import './tablet.css';
 
 
 
@@ -63,15 +64,17 @@ body {
     padding: 20px;
     width: 100%;
 
+
 }
 
 #navvv {
 
-    /* background-color: red; */
+    
     width: 700px;
     display: flex;
     justify-content: space-between;
     font-size: 1.1rem;
+    flex-wrap: wrap;
     
 
 
@@ -120,27 +123,10 @@ a {
 
 }
 
-.ellipseCart {
+.SemiWavePoint {
 
-    padding-top: 35px;
-
-}
-
-.ellipse {
-
-    transform: translate3d(-7px,-10px,0);
-
-}
-
-.wave {
-
-    transform: translate3d(0,5px,0);
-
-}
-
-.waveEllipse {
-
-    transform: translate3d(-10px,-2px,0);
+    top: 5%;
+    position: absolute;
 
 }
 
@@ -150,10 +136,8 @@ a {
     box-shadow: 10px  5px 5px #0111181e;
     border-radius: 10px;
     position: absolute;
-    left: 110px;
-    top: 35px;
-
-
+    left: 7%;
+    top: 5%;
 
 }
 
@@ -202,7 +186,7 @@ a {
 header {
 
     position: relative;
-    height: 133vh;
+    height: 970px;
 
 
 }
@@ -210,8 +194,8 @@ header {
 .interompu {
 
     position: absolute;
-    left: 525px;
-    top:86px
+    left: 35%;
+    top:10%
 
 
 }
@@ -222,8 +206,8 @@ header {
     width: 250px;
     border-radius: 10px;
     position: absolute;
-    right: 31px;
-    top: 5px;
+    right: 2%;
+    top: 1%;
     box-shadow: 10px  5px 5px #0111181e;
     background-color: #FFFFFF;
 
@@ -231,8 +215,8 @@ header {
 
 #cardExperience2 {
 
-    top: 440px;
-    right: 105px;
+    top: 446px;
+    right: 7%;
     background-color: #FFFFFF;
 
 }
@@ -361,17 +345,24 @@ header {
 .escalier {
 
     position: absolute;
-    top: 220px;
+    top: 273px;
+
+}
+
+.doublePointWave {
+
+    position: absolute;
+    bottom: 17%;
+    left: 27%;
 
 }
 
 .titleJobatHome {
 
-    /* transform: translate3d(370px,100px,0); */
     position: absolute;
-    right: 60px;
-    top: 160px;
-    width: 1000px;
+    right: 9%;
+    top: 230px;
+    width: 900px;
 
 }
 
@@ -409,6 +400,8 @@ h6 {
 
 
     width: 180px;
+    height: 50px;
+    padding-top: 12px;
     
 
 }
@@ -419,6 +412,8 @@ h6 {
     color: #0EA0E4;
     background-color: #9596a100;
     border: 1px solid #9596a192;
+    height: 50px;
+    padding-top: 12px;
 
 
 }
@@ -440,8 +435,8 @@ h6 {
 
 #cardProifl2 {
 
-   top: 460px;
-   left: 65px;
+   top: 515px;
+   left: 6%;
 
 
 }
@@ -449,6 +444,7 @@ h6 {
 .blueRectangle {
 
     transform: translate3d(253px,57px,0);
+    
 
 }
 
@@ -467,29 +463,22 @@ h6 {
 
 .escalier2 {
 
-    transform: translate3d(147px,70px,0);
+    position: absolute;
+    right: 0;
+    transform: translate3d(95px,70px,0);
 
 
 }
 
 .escalier3 {
 
-        position: absolute;
-        bottom: 230px;
-        left: 520px;
-    
-    /* transform: translate3d(447px,-88px,0); */
-
-}
-
-.waveEllipse2 {
-
     position: absolute;
-    bottom: 155px;
-    left: 365px;
-
+    bottom:25%;
+    left: 37%;
+    
 
 }
+
 
 .wave2 {
 
@@ -503,12 +492,7 @@ h6 {
 
 }
 
-#waveEllipse3 {
 
-    transform: translate3d(-20px,20px,0);
-
-
-}
 
 
 
@@ -1256,7 +1240,6 @@ details[open] > summary {
 
     display: flex;
     justify-content: space-between;
-    height: 450px;
 
     
 
