@@ -64,7 +64,6 @@ body {
     padding: 20px;
     width: 100%;
 
-
 }
 
 #navvv {
@@ -1132,6 +1131,14 @@ h6 {
 
 }
 
+#Commentçamarche {
+
+
+    /* display: none; */
+
+}
+
+
 .faqTitle {
 
     font-weight: bold;
@@ -1322,6 +1329,7 @@ details[open] > summary {
 
     display: flex;
     justify-content: space-between;
+
    
 }
 
