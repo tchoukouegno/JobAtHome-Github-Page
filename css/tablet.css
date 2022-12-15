@@ -60,10 +60,7 @@ header {
 
 .cardProfil {
 
-    /* background-color: orange; */
     width: 35%;
-    /* height: 350px; */
-
     left: 2% !important;
 
 
@@ -77,13 +74,35 @@ header {
 
 }
 
+.iconInfoCard {
+
+    display: flex;
+    gap:1px;
+    align-items: center;
+
+}
+
 .infoCard {
 
-    /* transform: translate3d(0px,0px,0px) !important; */
-    /* font-size: 0.9rem; */
+    transform: translate3d(0px,0px,0) !important;
+    font-size: 0.9rem !important;
 
 
 }
+.cardInfo {
+
+    gap: 0 !important;
+    justify-content: space-between;
+
+}
+
+.cardInfo div svg {
+
+   
+    width: 15px !important;
+
+}
+
 
 #cardProifl2 {
 
@@ -93,20 +112,12 @@ header {
 
 }
 
-.iconInfoCard {
-
-    /* background-color: brown; */
-    /* display: flex; */
-    /* flex-wrap: wrap-reverse; */
-
-}
-
-.cardInfo {
+/* .cardInfo {
 
     gap: 5px !important;
     /* background-color: aqua; */
 
-}
+} */
 
 .interompu {
 
@@ -240,15 +251,16 @@ header {
 
 #stepSelectionJobathome {
 
-    /* background-color: yellow; */
-    /* display: grid;
-    grid-template-columns: 1fr 1fr; */
-    /* flex-wrap: wrap; */
-    /* flex-direction: column; */
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
     gap: 30px;
-    /* justify-content: space-around; */
-    /* flex-direction: column; */
-    /* background-color: red; */
+    grid-column: 0px !important;
+    justify-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* background-color: aquamarine; */
+    /* width: 700px; */
+    align-items: center !important;
 
 }
 
@@ -502,20 +514,37 @@ header {
 #FAQs {
 
     flex-direction: column;
+    align-items: center;
+    gap: 50px;
        
 
 }
 
-.faqs {
+.faqs span {
+
+  padding-right: 10px;
+  display: block;
+
+}
+
+
+.FAQ {
 
     width: 100% !important;
+    
 
 }
 
+.faqTitle {
 
-
-
-
-
+    
+    font-size: 2.2rem !important;
 
 }
+
+.about {
+
+    width: 100% !important;
+    
+}
+

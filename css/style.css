@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500&display=swap');
 @import './top5.css';
 @import './candidat.css';
 @import './contact.css';
@@ -18,7 +19,7 @@
 html,body {
     margin: 0;
     padding: 0;
-    font-family: "DM Sans", sans-serif;
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 #bloc_Page {
@@ -75,8 +76,6 @@ body {
     justify-content: space-between;
     font-size: 1.1rem;
     flex-wrap: wrap;
-    
-
 
 }
 
@@ -609,7 +608,7 @@ h6 {
 
     /* background-color: red !important; */
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
 
 }
@@ -1337,14 +1336,6 @@ details[open] > summary {
 
 }
 
-.aboutJobatHome {
-
-    /* font-size: 0.8rem; */
-    /* font-weight: bold; */
-    /* color: black; */
-
-
-}
 
 .linkUtils {
 
