@@ -189,17 +189,411 @@
 }
 
 .cardExperience {
-
-    height: 320px;
-    width: 250px;
-    border-radius: 10px;
-    position: absolute;
-    right: 2%;
+  
+    right: 11%;
     top: 87%;
-    box-shadow: 10px  5px 5px #0111181e;
-    background-color: #FFFFFF;
 
 }
+
+.doublePointWave {
+
+    bottom: 0% !important;
+    left: 0% !important;
+    transform: translate3d(0,240px,0);
+    /* width: 23%; */
+
+}
+
+#cardExperience2 {
+
+    display: none;
+
+}
+
+.escalier2 {
+
+    display: none;
+
+}
+
+
+.differenceToAnotherpeopleTitle {
+
+    font-size: 1.5rem !important;
+    padding-bottom: 15px;
+    /* background-color: yellow; */
+    /* height: 500px !important; */
+    /* padding-top: 100px !important; */
+    /* transform: translate3d(0,100px,0); */
+
+}
+
+.digitalWorld {
+
+    width: 100%;
+    position:initial !important;
+    left: 0px !important;
+    text-align:center;
+    color: #9FA0AB;
+    /* background-color: violet; */
+
+}
+
+.entreprise {
+
+    position: initial !important;
+    top: 0px !important;
+    padding-top: 15px;
+    /* background-color: blue; */
+
+}
+
+.blueRectangle {
+
+    transform: translate3d(234px,60px,0) !important;
+
+    
+
+}
+
+.differenceToAnotherpeople {
+
+    padding-top: 200px;
+
+}
+
+#stepSelectionJobathome {
+
+    
+    display: grid !important;
+    grid-template-columns: 1fr;
+
+
+}
+
+.selectionTitle {
+
+    
+    font-size: 1.6rem !important;
+    width: 100% !important;
+    position: initial !important;
+
+}
+
+.remoteText {
+
+    position:initial !important ;
+    text-align: center !important;
+    width: 100% !important;
+    display: block;
+
+}
+
+
+#girlRemote img {
+
+    width: 100%;
+    height: 200px;
+
+}
+
+.cardGirlRemote {
+
+    flex-direction: column !important;
+    gap: 40px !important;
+    padding-top: 150px;
+
+}
+
+#expertReact {
+
+    width: 125px;
+    height: 55px;
+    padding-left: 10px;
+    padding-top: 15px;
+    transform: translate3d(-20px,-90px,0) !important;
+
+}
+
+#expertReact img {
+
+    height: 25px;
+    width: 25px;
+    object-fit: cover;
+
+}
+
+#expertReact div span {
+    
+    font-size: 0.7rem;
+    transform: translate3d(0,-4px,0);
+
+}
+
+#expertParent {
+
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px !important;
+    position: relative;
+    box-shadow: 10px  5px 5px #0111181e;
+    width: 120px;
+    height: 80px;
+    transform: translate3d(0px,0px,0) !important;
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: 13%;
+}
+
+#expertReactHtml img {
+
+    height: 25px;
+    width: 25px;
+    object-fit: cover;
+
+}
+
+#expertReactHtml div span {
+    
+    font-size: 0.7rem;
+    transform: translate3d(0,-4px,0);
+
+}
+
+.expertHtml img {
+
+    height: 25px;
+    width: 25px;
+    object-fit: cover;
+
+}
+
+
+.expertHtml div span {
+
+    font-size: 0.7rem;
+    transform: translate3d(0,-4px,0);
+
+}
+
+.expertHtml {
+
+    padding-top: 7px;
+
+}
+
+#expertReactHtml {
+
+    gap: 10px;
+    padding-left: 25px;
+    padding-top: 8px;
+    
+}
+
+.middleexpert {
+
+    left: 38px;
+    top: 32px;
+    height: 17px;
+
+}
+
+.virgule {
+
+    transform: translate3d(0px,0px,0) !important;
+    width: 100px;
+    position: absolute;
+    bottom: 11%;
+
+}
+
+.cardGirlRemote {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* background-color: red; */
+    
+}
+
+
+.btnColor {
+
+    font-size: 1rem;
+}
+
+.btnexpert {
+
+    font-size: 1rem;  
+
+}
+
+.cardexpertText {
+
+    font-size: 1rem;
+
+}
+
+.devSection {
+
+    padding-top: 300px !important;
+
+
+}
+
+.expertiseProposé {
+
+
+    font-size: 2.2rem !important;
+    
+
+}
+.domaine {
+
+   
+    font-size: 1.2rem !important;
+   
+
+}
+
+.equipe {
+
+    font-size: 1rem !important;
+    
+
+}
+
+
+#cardCarousel {
+
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    /* background-color: red; */
+
+
+}
+
+.laguageProgramation {
+
+    bottom: 5%;
+
+}
+
+.circleAndSemiCircle {
+
+    display: none;
+
+}
+
+.fleur {
+
+    display: none;
+
+}
+
+.circleOrange {
+
+    display: none;
+
+}
+
+#accessProfil h2 {
+
+    font-size: 1.4rem !important;
+
+}
+
+#accessProfil span {
+
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-size: 1.4rem !important;
+    transform: translate3d(0,-30px,0) !important;
+
+}
+
+#bntDecouverte {
+  
+    left: 38% !important;
+
+}
+
+#amExpert {
+
+    flex-direction: column;
+    gap: 0px;
+    height: 100% !important;
+    width: 100%;
+   
+}
+
+.recruteur h3 {
+
+    font-size: 1.4rem !important;
+
+}
+
+#bntBesoin {
+
+    width: 200px;
+    position: absolute;
+    left:32% !important;
+    bottom: 10% !important;
+
+}
+
+.faqs span {
+
+    font-size: 1rem;
+    /* background-color: aquamarine; */
+    width: 93%;
+    text-align: center;
+
+
+}
+
+.question {
+
+    width: 100%;
+
+}
+
+.msg {
+
+    width: 140px;
+    transform: translate3d(40px,0,0);
+
+}
+
+.aQuestion {
+
+    font-size: 1.1rem;
+   
+}
+
+.anothercountry {
+
+    font-size: 1.1rem;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
