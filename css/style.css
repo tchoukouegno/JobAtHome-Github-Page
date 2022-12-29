@@ -28,7 +28,6 @@ html,body {
 
     max-width: 1400px;
     margin: 0 auto;
-    /* background-color: red; */
 
 }
 
@@ -252,7 +251,6 @@ header {
     flex-direction: column;
     background-color: #F8F8F8;
     gap: 5px;
-    /* padding-left: 35px; */
     border-radius: 5px;
     width: 125px;
     height: 60px;
@@ -276,10 +274,7 @@ header {
     flex-direction: column;
     background-color: #F8F8F8;
     gap: 5px;
-    /* padding-left: 35px; */
     border-radius: 5px;
-    /* width: 100px;
-    height: 50px; */
     padding-left: 10px;
     height: 50px;
     padding-top: 5px;
@@ -299,9 +294,6 @@ header {
 
     display: flex;
     gap: 10px;
-    /* padding-left: 35px; */
-    
-
 
 }
 
@@ -310,7 +302,6 @@ header {
     display: flex;
     flex-direction: column;
     gap: 13px;
-    /* background-color: aqua; */
     transform: translate3d(15px,50px,0);
     width: 217px;
 
@@ -377,7 +368,6 @@ header {
 
 .subTitle {
 
-    /* background-color: rebeccapurple; */
     width: 100% ;
     text-align: none;
     transform: translate3d(-100px,0px,0);
@@ -627,9 +617,7 @@ h6 {
 
 #stepSelectionJobathome {
 
-    /* background-color: red !important; */
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: center;
 
 }
@@ -645,7 +633,6 @@ h6 {
 .remoteText {
 
     position: absolute;
-    /* left: 280px; */
     bottom: 95px;
     color: #696A79;
     text-align: center;
@@ -968,7 +955,6 @@ h6 {
 
     position: absolute;
     left:0;
-    /* z-index: 5; */
 
 }
 
@@ -1105,7 +1091,6 @@ h6 {
 
 #expertContainer {
 
-    /* background-color: aqua; */
     padding: 200px;
     position:relative;
     height: 250px;
@@ -1247,14 +1232,10 @@ details[open] > summary {
 
 .faqs {
 
-    /* height: 74px; */
     border:1px solid #70798d28;
     padding: 15px;
     border-radius: 10px;
-    /* padding-left: 20px;
-    padding-right: 20px; */
     font-weight: bold;
-    /* padding-top: 23px; */
     font-size: 1.2rem;
     position: relative;
     background-color: #FFFFFF;
@@ -1341,14 +1322,12 @@ details[open] > summary {
 
     font-size: 1.2rem;
     text-align: center;
-    /* width: 290px; */
-    /* background-color: red; */
+
 }
 
 .logo {
 
     height: 40px;
-    /* background-color: red; */
     width: 90px;
 
 }
@@ -1364,14 +1343,11 @@ details[open] > summary {
 
     display: flex;
     justify-content: space-between;
-    /* background-color: red; */
 
-   
 }
 
 .about {
 
-    /* background-color: red; */
     width: 500px;
     display: flex;
     flex-direction: column;
@@ -1383,15 +1359,9 @@ details[open] > summary {
 .linkUtils {
 
     position: relative;
-    /* background-color: red; */
 
 }
 
-.seizelinkUtils {
-
-    /* font-size: 0.8rem; */
-
-}
 
 
 .locationIcon {
@@ -1403,7 +1373,6 @@ details[open] > summary {
 .seizeContactUtils {
 
     font-size: 0.9rem;
-    /* font-weight: 600; */
     display: flex;
     gap: 5px;
     
@@ -1426,13 +1395,11 @@ details[open] > summary {
 
 .copyright {
 
-    /* background-color: red; */
-    /* transform: translate3d(-22px,0,0); */
+
     border-top: 1px solid #E9EFF2;
     display: flex;
     justify-content: space-between;
-    /* padding-top: 400px; */
-    /* background-color: rebeccapurple; */
+    
 }
 
 
