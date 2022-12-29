@@ -3,18 +3,10 @@
 @media screen and (max-width:767px) {
 
 
-#bloc_Page {
-
-    /* background-color: red ; */
-    /* width: 100% !important; */
-   
-
-}
 
 
 .imgHeader {
 
-    /* background-color: blue; */
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
@@ -30,10 +22,9 @@
 
 }
 
+
 #Footer {
 
-    /* gap: 10px; */
-    /* background-color: aquamarine; */
     flex-direction: column;
     gap: 20px;
 
@@ -42,8 +33,6 @@
 .about {
 
     width: 100%;
-    /* text-align: center; */
-    
     
 }
 
@@ -51,7 +40,6 @@
 .weShirng {
 
     right: 0;
-    /* background-color: red; */
     top: 80px;;
     left: 77px;
 
@@ -133,17 +121,17 @@
 
 .titleJobatHome {
 
-    right: 0 !important;
-    left: 0 !important;
-    width: 100% !important;
-    padding-top: 60px;
-    /* background-color: red; */
+    right: 0 ;
+    left: 0 ;
+    width: 100%;
+    padding-top: 100px;
+    text-align: center;
 
 }
 
 .titleJobatHome h1 {
 
-    font-size: 1.7rem !important;
+    font-size: 1.7rem;
     font-weight: bold;
     text-align: center;
     
@@ -152,17 +140,15 @@
 }
 .otherTitle {
 
-    font-size: 1.7rem !important;
+    font-size: 1.7rem;
     transform: translate3d(0px,-10px,0);
     width: 100%;
-    /* background-color: blue; */
     text-align: center;
 }
 
 .subTitle {
 
-    /* background-color: rebeccapurple; */
-    width: 90% !important;
+    width: 90%;
     text-align: center;
     transform: translate3d(53px,100px,0);
     font-size: 0.9rem;
@@ -174,8 +160,8 @@
    
     flex-direction: column;
     position: absolute;
-    transform: translate3d(0px,80px,0) !important;
-    width: 93% !important;
+    transform: translate3d(0px,80px,0);
+    width: 93%;
     align-items: center;
 
 
@@ -183,24 +169,23 @@
 
 .escalier {
 
-    bottom: 0 !important; 
-    transform: translate3d(0,150px,0) !important;
-
+    bottom: 0; 
+    transform: translate3d(0,290px,0);
 }
 
 .cardExperience {
   
     right: 11%;
-    top: 87%;
+    top: 80%;
+    z-index: 5;
 
 }
 
 .doublePointWave {
 
-    bottom: 0% !important;
-    left: 0% !important;
-    transform: translate3d(0,240px,0);
-    /* width: 23%; */
+    bottom: 0%;
+    left: 0%;
+    transform: translate3d(0,180px,0);
 
 }
 
@@ -219,38 +204,33 @@
 
 .differenceToAnotherpeopleTitle {
 
-    font-size: 1.5rem !important;
+    font-size: 1.5rem;
     padding-bottom: 15px;
-    /* background-color: yellow; */
-    /* height: 500px !important; */
-    /* padding-top: 100px !important; */
-    /* transform: translate3d(0,100px,0); */
+    padding-top: 15px;
 
 }
 
 .digitalWorld {
 
     width: 100%;
-    position:initial !important;
-    left: 0px !important;
+    position:initial ;
+    left: 0px;
     text-align:center;
     color: #9FA0AB;
-    /* background-color: violet; */
 
 }
 
 .entreprise {
 
-    position: initial !important;
-    top: 0px !important;
+    position: initial ;
+    top: 0px ;
     padding-top: 15px;
-    /* background-color: blue; */
 
 }
 
 .blueRectangle {
 
-    transform: translate3d(234px,60px,0) !important;
+    transform: translate3d(250px,60px,0);
 
     
 
@@ -265,7 +245,7 @@
 #stepSelectionJobathome {
 
     
-    display: grid !important;
+    display: grid ;
     grid-template-columns: 1fr;
 
 
@@ -274,18 +254,24 @@
 .selectionTitle {
 
     
-    font-size: 1.6rem !important;
-    width: 100% !important;
-    position: initial !important;
+    font-size: 1.6rem ;
+    width: 100% ;
+    position: initial ;
 
 }
 
 .remoteText {
 
-    position:initial !important ;
-    text-align: center !important;
-    width: 100% !important;
+    position:initial  ;
+    text-align: center ;
+    width: 100% ;
     display: block;
+
+}
+
+#girlRemote {
+
+    flex-wrap: wrap;
 
 }
 
@@ -299,8 +285,8 @@
 
 .cardGirlRemote {
 
-    flex-direction: column !important;
-    gap: 40px !important;
+    flex-direction: row ;
+    gap: 40px ;
     padding-top: 150px;
 
 }
@@ -311,7 +297,7 @@
     height: 55px;
     padding-left: 10px;
     padding-top: 15px;
-    transform: translate3d(-20px,-90px,0) !important;
+    transform: translate3d(5px,-810px,0) ;
 
 }
 
@@ -335,12 +321,12 @@
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    gap: 0px !important;
+    gap: 0px ;
     position: relative;
     box-shadow: 10px  5px 5px #0111181e;
     width: 120px;
     height: 80px;
-    transform: translate3d(0px,0px,0) !important;
+    transform: translate3d(0px,0px,0) ;
     background-color: #FFFFFF;
     position: absolute;
     bottom: 13%;
@@ -401,7 +387,7 @@
 
 .virgule {
 
-    transform: translate3d(0px,0px,0) !important;
+    transform: translate3d(0px,0px,0) ;
     width: 100px;
     position: absolute;
     bottom: 11%;
@@ -413,7 +399,6 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    /* background-color: red; */
     
 }
 
@@ -437,7 +422,7 @@
 
 .devSection {
 
-    padding-top: 300px !important;
+    padding-top: 300px ;
 
 
 }
@@ -445,21 +430,21 @@
 .expertiseProposé {
 
 
-    font-size: 2.2rem !important;
+    font-size: 2.2rem ;
     
 
 }
 .domaine {
 
    
-    font-size: 1.2rem !important;
+    font-size: 1.2rem ;
    
 
 }
 
 .equipe {
 
-    font-size: 1rem !important;
+    font-size: 1rem ;
     
 
 }
@@ -470,7 +455,7 @@
     display: flex;
     gap: 50px;
     justify-content: center;
-    /* background-color: red; */
+    flex-wrap: wrap;
 
 
 }
@@ -501,7 +486,13 @@
 
 #accessProfil h2 {
 
-    font-size: 1.4rem !important;
+    font-size: 1.4rem ;
+
+}
+
+#accessProfil {
+
+    height: 200px;
 
 }
 
@@ -510,14 +501,24 @@
     text-align: center;
     width: 100%;
     display: block;
-    font-size: 1.4rem !important;
-    transform: translate3d(0,-30px,0) !important;
+    font-size: 1.4rem ;
+    transform: translate3d(0,-30px,0) ;
+
+}
+
+#accessProfil {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 
 }
 
 #bntDecouverte {
   
-    left: 38% !important;
+    position: initial;
+    transform: translate3d(0,-8px,0);
 
 }
 
@@ -525,23 +526,81 @@
 
     flex-direction: column;
     gap: 0px;
-    height: 100% !important;
-    width: 100%;
+    height: 100% ;
+    width: 90%;
+    right: 15px;
    
+}
+
+.recruteur {
+
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
 .recruteur h3 {
 
-    font-size: 1.4rem !important;
+    font-size: 1.3rem ;
+
+}
+
+.recruteur p {
+
+    font-size: 0.7rem ;
+
+}
+
+.carrerGrille {
+
+    width: 50px;
+    top: 0 ;
+    left: 30px ;
+
+
+}
+
+.wavePoint {
+
+    display: none;
+
+}
+
+.waveClaire {
+
+    display: none;
 
 }
 
 #bntBesoin {
 
     width: 200px;
-    position: absolute;
-    left:32% !important;
-    bottom: 10% !important;
+    position: initial;
+
+}
+
+#FAQs {
+
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+
+}
+
+.FAQ {
+
+    
+    width:100%;
+    
+
+}
+
+.faqTitle {
+
+    font-size: 2rem;
 
 }
 

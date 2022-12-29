@@ -4,51 +4,27 @@
 @media screen and (min-width:768px) and (max-width:1024px) {
 
 
-#bloc_Page {
-
-    /* background-color: blue; */
-    /* width: 2000px; */
-    /* max-width: 0; */
-    /* margin: none; */
-    /* padding-left: 10px; */
-    /* background-color: violet; */
-
-
-    
-
-
-}
-
-header {
-
-    /* background-color: red; */
-    /* width: 2000px; */
-  
-}
 
 .imgHeader {
 
-    /* background-color: blue; */
     flex-wrap: wrap-reverse;
 
 }
 
 #Footer {
 
-    /* gap: 10px; */
-    /* background-color: aquamarine; */
+    display: flex;
     flex-direction: column;
     gap: 20px;
-
+    
 
 }
 
 .weShirng {
 
     right: 0;
-    /* background-color: red; */
-    top: 0;
-    left: 77px;
+    top: 80px;
+    left: 78px;
 
 }
 
@@ -61,14 +37,12 @@ header {
 .cardProfil {
 
     width: 35%;
-    left: 2% !important;
-
+    left: 2% ;
 
 }
 
 .cardProfil .card-header {
 
-    /* background-color:green; */
     text-align: center;
     font-size: 1.1rem;
 
@@ -84,14 +58,14 @@ header {
 
 .infoCard {
 
-    transform: translate3d(0px,0px,0) !important;
-    font-size: 0.9rem !important;
+    transform: translate3d(0px,0px,0);
+    font-size: 0.9rem ;
 
 
 }
 .cardInfo {
 
-    gap: 0 !important;
+    gap: 0 ;
     justify-content: space-between;
 
 }
@@ -99,66 +73,62 @@ header {
 .cardInfo div svg {
 
    
-    width: 15px !important;
+    width: 15px;
 
 }
 
 
 #cardProifl2 {
 
-    top: 700px !important;
-    /* background-color: yellow; */
+    top: 700px;
 
 
 }
 
-/* .cardInfo {
 
-    gap: 5px !important;
-    /* background-color: aqua; */
 
-} */
+} 
 
-.interompu {
+#Interompu {
 
-    width: 30%;
-    left: 38%!important;
+    width: 5% ;
+    left: 38%;
+    display: none;
 
 }
 
 .blueRectangle {
 
-    transform: translate3d(238px,64px,0) !important;
+    transform: translate3d(234px,64px,0) ;
     
 
 }
 
 .oraneRectangle {
 
-    transform: translate3d(157px,66px,0) !important;
+    transform: translate3d(157px,66px,0) ;
 
 }
 
 .blackRectangle {
 
-    transform: translate3d(154px,89px,0) !important;
+    transform: translate3d(154px,89px,0);
 
 }
 
 .titleJobatHome {
 
-    width: 600px!important;
-    right: 0 !important;
-    top: 300px !important;
-    left: 20% !important;
-    /* background-color: aquamarine; */
+    width: 600px;
+    right: 0 ;
+    top: 300px ;
+    left: 20% ;
     
 
 }
 
 .titleJobatHome h1 {
 
-    font-size: 2.5rem !important;
+    font-size: 2.5rem ;
     font-weight: bold;
     
 
@@ -166,17 +136,15 @@ header {
 
 .otherTitle {
 
-    font-size: 2.5rem !important;
+    font-size: 2.5rem ;
     font-weight: bold;
     transform: translate3d(-130px,-20px,0);
-    /* background-color: green; */
     width: 600px;
 }
 
 .subTitle {
 
-    /* background-color: rebeccapurple; */
-    width: 730px !important;
+    width: 730px ;
     text-align: center;
     transform: translate3d(-100px,0px,0);
     font-size: 0.9rem;
@@ -185,36 +153,34 @@ header {
 
 #btnFlex  {
 
-    /* background-color: yellow; */
-    transform: translate3d(0px,40px,0) !important;
+    transform: translate3d(0px,40px,0) ;
 
 }
 
 .escalier {
 
-    top: 460px !important;
+    top: 460px ;
 
 }
 
 .escalier3 {
 
-    left: 40% !important;
+    left: 40% ;
     display: none;
 
 }
 
 #cardExperience2 {
 
-    /* background-color: yellow !important; */
-    right: 2% !important;
-    top: 695px !important;
+    right: 2%;
+    top: 695px;
 
 }
 
 .doublePointWave {
 
-    left: 40% !important;
-    bottom: 0 !important;
+    left: 42% ;
+    bottom: 0 ;
 
 
 }
@@ -227,23 +193,15 @@ header {
 
 .differenceToAnotherpeopleTitle {
 
-    font-size: 2rem !important;
+    font-size: 2rem ;
     padding-top: 100px;
 
 }
 
 .digitalWorld {
 
-    /* background-color: red; */
-    width: 100% !important;
-    left: 0px !important;
-    /* background-color: red; */
-    /* text-align:justify; */
-    /* padding-right: 5px; */
-    
-    
-    /* text-align: center; */
-    /* display: none !important; */
+    width: 100% ;
+    left: 0px ;
 
 }
 
@@ -251,32 +209,30 @@ header {
 
 #stepSelectionJobathome {
 
-    display: grid !important;
+    display: grid ;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
-    grid-column: 0px !important;
+    grid-column: 0px ;
     justify-items: center;
     padding-left: 50px;
     padding-right: 50px;
-    /* background-color: aquamarine; */
-    /* width: 700px; */
-    align-items: center !important;
+    align-items: center ;
 
 }
 
 .selectionTitle {
 
-    font-size: 2rem !important;
-    width: 100% !important;
-    left: 0 !important;
+    font-size: 2rem ;
+    width: 100% ;
+    left: 0 ;
 
 }
 
 .remoteText {
 
-    left: 0 !important;
+    left: 0 ;
     text-align: center;
-    bottom: 30% !important;
+    bottom: 30% ;
     width: 100%;
 
 }
@@ -285,37 +241,33 @@ header {
 
     flex-wrap: wrap;
 
-
 }
 
 .cardGirlRemote {
 
-    /* background-color: red;
-    display: flex !important; */
-    flex-direction: row !important;
-    gap: 40px !important;
+    display: flex ;
+    flex-direction: row ;
+    gap: 40px ;
     padding-top: 150px;
-    /* flex-wrap: wrap !important; */
-    /* display: none !important; */
-
 
 }
 
 #expertReact {
 
-    transform: translate3d(0px,0px,0) !important;
+    transform: translate3d(0px,0px,0) ;
     position: absolute;
     bottom: 11%;
     left: 15%;
+   
 
 }
 
 #expertParent {
 
     
-    transform: translate3d(0px,0px,0) !important;
+    transform: translate3d(0px,0px,0) ;
     position: absolute;
-    bottom: 73%;
+    bottom: 7%;
     left: 58%;
 
 
@@ -323,7 +275,7 @@ header {
 
 .virgule {
 
-    transform: translate3d(0px,0px,0) !important;
+    transform: translate3d(0px,0px,0) ;
     position: absolute;
     bottom: 6%;
     left: 32%;
@@ -332,27 +284,27 @@ header {
 
 .devSection {
 
-    padding-top: 180px !important;
+    padding-top: 220px !important ;
 
 
 }
 
 .expertiseProposé {
 
-    font-size: 2.5rem !important;
+    font-size: 2.5rem ;
 
 
 }
 
 .domaine {
 
-    font-size: 1.2rem !important;
+    font-size: 1.2rem ;
 
 }
 
 .equipe {
 
-    font-size: 1rem !important;
+    font-size: 1rem ;
     text-transform: uppercase;
     
 
@@ -368,35 +320,31 @@ header {
 
 .fleur {
 
-    /* background-color: red; */
-    /* display: none; */
-    right: 7px !important;
+    right: 7px ;
     width: 150px;
-    top: 0px !important;
+    top: 0px ;
 
 
 }
 
 #accessProfil h2 {
 
-    font-size: 1.7rem !important;
+    font-size: 1.7rem ;
     transform: translate3d(0,-20px,0);
-    /* text-align: left !important; */
    
-
 }
 
 #accessProfil span {
 
    
-    font-size: 1.7rem !important;
-    transform: translate3d(0,-20px,0) !important;
+    font-size: 1.7rem ;
+    transform: translate3d(0,-20px,0) ;
 
 }
 
 #accessProfil {
 
-    height: 200px !important;
+    height: 200px ;
 
 }
 
@@ -408,9 +356,9 @@ header {
 
 #bntDecouverte {
 
-    left: 45% !important;
-    transform: translate3d(-45px,0,0) !important;
-    bottom: 7% !important;
+    left: 45% ;
+    transform: translate3d(-45px,0,0) ;
+    bottom: 7% ;
     
 
 
@@ -425,12 +373,12 @@ header {
 
 #amExpert {
 
-    gap: 0px !important;
+    gap: 0px ;
     border-radius: 10px;
-    height: 150px !important;
-    width: 100% !important;
-    padding: 25px !important;
-    right: 0px  !important;
+    height: 150px ;
+    width: 100% ;
+    padding: 25px ;
+    right: 0px  ;
     justify-content: space-between;
 
 }
@@ -443,36 +391,36 @@ header {
 
 #bntjoinCommunity {
 
-    width: 250px !important;
+    width: 250px ;
 
 }
 
 #StepRecruteur img {
 
-    width: 100% !important;
+    width: 100% ;
 
 }
 
 .recruteur {
 
-    height: 200px !important;
-    /* background-color: red !important; */
+    height: 200px ;
+    /* background-color: red ; */
 
 }
 
 .recruteur h3  {
 
 
-    font-size: 1.7rem !important;
-    transform: translate3d(0,-25px,0) !important;
+    font-size: 1.7rem ;
+    transform: translate3d(0,-25px,0) ;
 
 }
 
 .recruteur p {
 
-    font-size: 0.8rem !important;
-    transform: translate3d(0,-25px,0) !important;
-    text-align: center !important;
+    font-size: 0.8rem ;
+    transform: translate3d(0,-25px,0) ;
+    text-align: center ;
 
 
 }
@@ -480,8 +428,8 @@ header {
 .carrerGrille {
 
     width: 50px;
-    top: 0 !important;
-    left: 30px !important;
+    top: 0 ;
+    left: 30px ;
 
 
 }
@@ -489,24 +437,24 @@ header {
 .wavePoint {
 
     height: 50px;
-    left: 10px !important;
+    left: 10px ;
 
 }
 
 .waveClaire {
 
    width: 50px; 
-   right: 80px !important;
-   top: 30px !important;
+   right: 80px ;
+   top: 30px ;
 
 }
 
 #bntBesoin {
 
     width: 200px;
-    left: 41% !important;
-    transform: translate3d(-40px,0,0) !important;
-    bottom: 40px !important;
+    left: 41% ;
+    transform: translate3d(-40px,0,0) ;
+    bottom: 40px ;
 
 }
 
@@ -524,13 +472,14 @@ header {
 
   padding-right: 10px;
   display: block;
+  width: 90%;
 
 }
 
 
 .FAQ {
 
-    width: 100% !important;
+    width: 100% ;
     
 
 }
@@ -538,13 +487,49 @@ header {
 .faqTitle {
 
     
-    font-size: 2.2rem !important;
+    font-size: 2.2rem ;
 
 }
 
 .about {
 
-    width: 100% !important;
+    width: 100% ;
     
 }
+
+
+
+/* Page candidat */
+
+
+/* .imgToJoinCommunity  {
+
+    width: 80px;
+
+}
+
+.manmiddle {
+
+    width: 80px;
+
+} */
+
+.imgToJoinCommunity {
+
+    /* background-color: red; */
+
+}
+
+#winJob {
+
+    /* background-color: rebeccapurple; */
+
+}
+
+/* #formInscription {
+
+    flex-direction: column-reverse;
+
+
+} */
 

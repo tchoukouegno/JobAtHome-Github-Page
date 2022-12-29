@@ -1,118 +1,165 @@
 .backgroundImage {
-
-    /* display: flex; */
+    
     position: relative;
-    /* justify-content: space-around; */
 
+  }
+  
+  .backgroundRose {
 
-}
-
-.backgroundRose {
-
-    /* height: 100%; */
     width: 500px;
     height: 726px;
-    background-color: #F6E6DE;
+    background-color: #f6e6de;
     position: absolute;
     right: 0;
-    top:0;
+    top: 0;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-
-
-}
-
-.iconLivreBlanc {
-
+    
+  }
+  
+  .iconLivreBlanc {
     position: absolute;
     right: 0;
     border-top-right-radius: 20px;
-
-
-}
-
-.backgroundFormLivreBlanc {
-
-    background-color: #FFFFFF;
+  }
+  
+  .backgroundFormLivreBlanc {
+    background-color: #ffffff;
     border-radius: 20px;
     padding-left: 20px;
     padding-right: 20px;
     width: 570px;
     position: relative;
-   
-    /* height: 630px; */
-
-}
-
-#whitepaperHeader {
-
+  
+    
+  }
+  
+  #whitepaperHeader {
     position: relative;
-
-
-}
-
-.backgroundFormLivreBlanc {
-
+  }
+  
+  .backgroundFormLivreBlanc {
     position: absolute;
     top: 70px;
     right: 70px;
-
-
-
-}
-
-.backgroundFormLivreBlanc h3 {
+  }
+  
+  .backgroundFormLivreBlanc h3 {
     padding-top: 70px;
     padding-bottom: 40px;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.6rem;
-   
-
-}
-
-#choiceToDownload  {
-
+  }
+  
+  #choiceToDownload {
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
     font-weight: bold;
     font-size: 00.9rem;
-}
-
-.amdevwhitepaper {
-
-    border-bottom: 3px solid #3BB2E9;
+  }
+  
+  .amdevwhitepaper {
+    border-bottom: 3px solid #3bb2e9;
     padding-bottom: 15px;
-    color: #3BB2E9;
-   
-
-}
-
-.buttonToDownload button {
-
-    background-color:#0EA0E4;
+    color: #3bb2e9;
+  }
+  
+  .buttonToDownload button {
+    background-color: #0ea0e4;
     height: 40px;
-    color: #FFFFFF;
+    color: #ffffff;
     border-radius: 10px;
     border: none;
     width: 100%;
     text-align: center;
-
-}
-
-.buttonToDownload {
-
+  }
+  
+  .buttonToDownload {
     padding-top: 20px;
     padding-bottom: 30px;
-
-}
-
-.labelDownload {
-
+  }
+  
+  .labelDownload {
     font-weight: bold;
     font-size: 0.9rem;
-
-}
-
+  }
+  
+  /*******RESPONSIVE LIVRE BLANC*****/
+  @media all and (min-width: 360px) and (max-width: 767px) {
+    .imgHeader {
+      display: flex;
+      flex-direction: column;
+      padding-left: 15px;
+      padding-right: 15px;
+      gap: 20px;
+    }
+    .imgHeader img {
+      margin: auto;
+      display: flex;
+    }
+    .navbar-nav {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      gap: 22px;
+    }
+    #navbarDropdownMenuLink {
+      list-style-type: none;
+    }
+    .chevronDown {
+      position: absolute;
+    }
+    .dropdown-menu {
+      transform: translate3d(-100px, 0, 0);
+    }
+    .btnConnexionContact {
+      margin: auto;
+      display: flex;
+    }
+    /*****fin du header****/
+  
+    .backgroundImage {
+      width: 100%;
+    }
+    .imageLivre {
+      width: 100%;
+      object-fit: cover;
+      padding-left: 15px;
+    }
+    .backgroundRose {
+      width: 100%;
+      position: absolute;
+      transform: translate3d(0, 280px, 0);
+    }
+    .backgroundFormLivreBlanc {
+      width: 100%;
+      transform: translate3d(35px, 150px, 0);
+      width: fit-content;
+    }
+    .iconLivreBlanc {
+      position: absolute;
+      right: 0;
+      border-top-right-radius: 20px;
+      width: 30%;
+      object-fit: cover;
+    }
+    /******fin du main*****/
+    #footer {
+      transform: translate3d(0, 100px, 0);
+    }
+  
+    #Footer {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      gap: 50px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  
+    /******fin du footer****/
+  }
+  

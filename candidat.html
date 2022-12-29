@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <script src="https://kit.fontawesome.com/14273d579a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" media="screen and (max-width:767px)" href="./css/mobile.css" />
+    <link rel="stylesheet" media="screen and (min-width:768px) and (max-width:1024px)" href="./css/tablet.css" />
     <title>Candidat</title>
 </head>
-<body>
+<body id="body">
     
-<div id="bloc_Page">
     <div class="imgHeader">
 
         <a href="./index.html"> <img src="./images/logo.svg" alt="logo JobatHome "></a>
@@ -161,11 +162,12 @@
                     </div>
 
 
-                    <div>
-                        <img src="./images/Group 1.png" alt="" >
-                        <img src="./images/Rectangle 3.png" alt="">
-                        <img src="./images/Rectangle 1.png" alt="" class="manmiddle">
-                        <img src="./images/Rectangle 2.png" alt="">
+                    <div >
+
+                        <img src="./images/Group 1.png" alt="arrow">
+                        <img src="./images/Rectangle 3.png" alt=" women picture" class="imgToJoinCommunity">
+                        <img src="./images/Rectangle 1.png" alt=" man picture" class="manmiddle">
+                        <img src="./images/Rectangle 2.png" alt=" man picture" class="imgToJoinCommunity">
 
                         
                     </div>
@@ -194,51 +196,55 @@
 
                 <h2 class="formTitle">Rejoindre la communauté</h2>
     
-                <form>
+                <form id="formData">
     
                     <div class="space">
     
-                        <label class="Label">Prénom*</label>
-                        <input type="text" required placeholder="Votre  prénom">
+                        <label class="Label" for="first-name">Prénom*</label>
+                        <input type="text"  name="first-name"required placeholder="Votre  prénom" id="first-name">
     
                     </div>
     
                     <div class="space">
     
-                        <label class="Label">Nom*</label>
-                        <input type="text" required placeholder="Votre nom">
+                        <label class="Label" for="last-name">Nom*</label>
+                        <input type="text"  name="last-name" placeholder="Votre nom" id="last-name">
     
                     </div>
     
                     <div class="space">
     
-                        <label class="Label">Email*</label>
-                        <input type="text" required placeholder="Votre adresse email">
+                        <label class="Label" for="email">Email*</label>
+                        <input type="text" name="email" required placeholder="Votre adresse email" id="email">
     
                     </div>
     
                     <div class="space">
     
-                        <label class="Label">Mot de passe*</label>
-                        <input type="text" required placeholder="Créez un mot de passe">
-                        <small>8 caractères minimum, 1 majuscule, 1 minuscule, 1 <br> caractère spécial</small>
+                        <label class="Label" for="password">Mot de passe*</label>
+                        <input type="password" name="password" required placeholder="Créez un mot de passe" id="passwordd">
+                       
+                       
+                        <img src="./images/eyesClose.svg"  id="Eye" alt=""/>
+                    
+                        <small>8 caractères minimum, 1 majuscule, 1 minuscule,1 chiffre, 1 <br> caractère spécial</small>
     
                     </div>
     
                     <div class="space">
     
                         <label class="Label">Catégorie*</label>
-                        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
-                            <option selected>Choisir une catégorie</option>
+                        <select class="form-select form-select-sm" aria-label=".form-select-sm example" name="category" id="category">
+                            <option selected value="Choisir une catégorie">Choisir une catégorie</option>
                             <option value="1">One</option>
                             <option value="2">Two</option>
                             <option value="3">Three</option>
-                          </select>
+                        </select>
                     </div>
                     
                     <div class="buttonInscriptionForm ">
 
-                        <button type="submit"> Je m’inscris </button>
+                        <button type="submit" id="submit-form"> Je m’inscris </button>
     
                         <small> Tu  as déjà un compte ?  <a href="#">Connexion</a></small>
     
@@ -308,7 +314,7 @@
        <div class="container py-5">
 
 
-        <img src="./images/Group 100000083299999.png" alt="">
+        <img src="./images/Group 100000083299999.png" alt=""  id="Commentçamarche">
 
 
        </div>
@@ -329,33 +335,100 @@
 
                     <div class="FAQ">
 
-                        <div class="faq ">
+                        
+                        <details >
 
-                            <p class="faqp">Lorem ipsum dolor sit amet, consectetur  ?</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua. </p>
+
+                            <summary class="faqs">
+
+                                    <span>Est-il possible de recruter des profils en CDI ou Freelance en Afrique via JOBATHOME ?                                                 </span>
+
+                                    <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg" class="croix">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.33301 20.6777V0.677734H11.3691V20.6777H9.33301Z" fill="#011118"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.170425 9.67773L20.5312 9.67773L20.5312 11.6777L0.170425 11.6777L0.170425 9.67773Z" fill="#011118"/>
+                                        </svg>
+
+                            </summary>
+
+                            <p class="descriptionFaq">Oui. Nous aidons les entreprises à recruter et à employer en <span class="blueColor">CDI ou Freelance</span> des profils tech basés en Afrique. Pour se faire, nous gérons le recrutement, la conformité de l'emploi local, la paie et la gestion des ressources humaines.</p>
+                            
+
+                    </details>
+
+                    <details >
+
+
+                        <summary class="faqs">
+
+                                <span>Quels types de profils proposez- vous ?</span>
+
+                                <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg" class="croix">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.33301 20.6777V0.677734H11.3691V20.6777H9.33301Z" fill="#011118"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.170425 9.67773L20.5312 9.67773L20.5312 11.6777L0.170425 11.6777L0.170425 9.67773Z" fill="#011118"/>
+                                    </svg>
+
+                        </summary>
+
+                        <p class="descriptionFaq">Nous proposons tout type de profils tech. <span class="blueColor">Développement Web et Mobile, Data, Cybersécurité, Métavers...</span> nous adressons tous les métiers du numérique.</p>
+                        
+
+                    </details>
+
+                    <details >
+
+
+                    <summary class="faqs">
+
+                            <span>Les profils proposés par Jobathome sont-ils qualifiés ?</span>
+
                             <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg" class="croix">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M9.33301 20.6777V0.677734H11.3691V20.6777H9.33301Z" fill="#011118"/>
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M0.170425 9.67773L20.5312 9.67773L20.5312 11.6777L0.170425 11.6777L0.170425 9.67773Z" fill="#011118"/>
                                 </svg>
-                                
 
-                        </div>
-                        <div class="faqs">Lorem ipsum dolor sit amet, consectetur  ? <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg" class="croixfaqs" >
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.33301 20.6777V0.677734H11.3691V20.6777H9.33301Z" fill="#011118"/>
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.170425 9.67773L20.5312 9.67773L20.5312 11.6777L0.170425 11.6777L0.170425 9.67773Z" fill="#011118" />
-                            </svg></div>
-                        <div class="faqs">Lorem ipsum dolor sit amet, consectetur  ? <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg" class="croixfaqs" >
+                    </summary>
+
+                        <p class="descriptionFaq">Afin de vous garantir des profils de qualité, nous avons développé des tests techniques permettant <span class="blueColor">d’évaluer techniquement</span> chaque candidat lors de son inscription sur notre plateforme. Grâce des <span class="blueColor">entretiens de personnalité</span> réalisés par nos experts en recrutement, nous référençons uniquement les <span class="blueColor">talents compétents,  fiables et capables de s’intégrer rapidement dans une équipe</span>.</p>
+                    
+
+                </details>
+
+                <details >
+
+
+                <summary class="faqs">
+
+                        <span>Où sont basés les profils proposés par Jobathome ?</span>
+
+                        <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg" class="croix">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M9.33301 20.6777V0.677734H11.3691V20.6777H9.33301Z" fill="#011118"/>
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M0.170425 9.67773L20.5312 9.67773L20.5312 11.6777L0.170425 11.6777L0.170425 9.67773Z" fill="#011118"/>
-                            </svg></div>
-                        <div class="faqs">Lorem ipsum dolor sit amet, consectetur  ? <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg" class="croixfaqs" >
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.33301 20.6777V0.677734H11.3691V20.6777H9.33301Z" fill="#011118"/>
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.170425 9.67773L20.5312 9.67773L20.5312 11.6777L0.170425 11.6777L0.170425 9.67773Z" fill="#011118"/>
-                            </svg></div>
-                        <div class="faqs">Lorem ipsum dolor sit amet, consectetur  ? <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg" class="croixfaqs" >
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.33301 20.6777V0.677734H11.3691V20.6777H9.33301Z" fill="#011118"/>
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.170425 9.67773L20.5312 9.67773L20.5312 11.6777L0.170425 11.6777L0.170425 9.67773Z" fill="#011118"/>
-                            </svg></div>
+                            </svg>
+
+                </summary>
+
+                    <p class="descriptionFaq">Les profils que nous proposons sont principalement basés dans les pays suivants : <span class="blueColor">Cameroun, Sénégal, Tunisie, Maroc, Mali et Côte d’Ivoire</span>.</p>
+                
+
+                </details>
+
+                <details >
+
+
+                    <summary class="faqs">
+
+                            <span class="faqsTitle">Les profils basés en Afrique ont-ils l’infrastructure nécessaire <br> pour télétravailler efficacement ?</span>
+
+                            <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg" class="croix">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.33301 20.6777V0.677734H11.3691V20.6777H9.33301Z" fill="#011118"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.170425 9.67773L20.5312 9.67773L20.5312 11.6777L0.170425 11.6777L0.170425 9.67773Z" fill="#011118"/>
+                                </svg>
+
+                    </summary>
+
+                    <p class="descriptionFaq"> Nous fournissons à vos Experts le <span class="blueColor">cadre de travail(bureaux dédiés ou espaces de coworking)et l’infrastructure informatique(ordinateur, Wifi sécurisé, casque...)</span> leur permettant de télétravailler efficacement.</p>
+                </details>
+
 
 
 
@@ -498,7 +571,7 @@
    
 
 
-</div>
+
 
 
 
@@ -506,4 +579,5 @@
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+<script type="module" src="./js/pages/candidat.js"></script>
 </html>

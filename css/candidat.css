@@ -1,274 +1,236 @@
 .JoinCommunityJob span {
-
     display: block;
+  }
+
+.imgToJoinCommunity  {
+
+    width:none;
 
 }
 
-.JoinCommunityJob h1 {
-
-   font-weight: bold;
-   font-size: 3rem;
-   padding-bottom: 20px;
 
 
-} 
-
-#winJob {
-
+  
+  .JoinCommunityJob h1 {
+    font-weight: bold;
+    font-size: 3rem;
+    padding-bottom: 20px;
+  }
+  
+  #winJob {
     display: flex;
     justify-content: space-between;
     /* background-color: red; */
-
-}
-
-.workFor {
-
+  }
+  
+  .workFor {
     padding-bottom: 90px;
-    color: #777A88;
-
-}
-
-.blueColor {
-
-    color: #0EA0E4;
-
-}
-
-.manmiddle {
-
-    transform: translate3d(0,100px,0);
-
-}
-
-#headerHeight {
-
+    color: #777a88;
+  }
+  
+  .blueColor {
+    color: #0ea0e4;
+  }
+  
+  .manmiddle {
+    transform: translate3d(0, 100px, 0);
+  }
+  
+  #headerHeight {
     height: 100vh;
-
-
-}
-
-.space {
-
+  }
+  
+  .space {
     display: flex;
     flex-direction: column;
     gap: 3px;
     position: relative;
+  }
   
-}
-
-input {
-
+  input {
     height: 40px;
-    border: 1px  #f4f5f7 solid;
+    border: 1px #f4f5f7 solid;
     outline: none;
     border-radius: 3px;
     width: 100%;
     padding-left: 15px;
-   
-}
+  }
+  
+  input::placeholder {
+    font-size: 0.9rem;
+  }
+  
+  form {
 
-input::placeholder{
-
-        font-size: 0.9rem;
-}
-
-form {
-
-    /* width: 30%; */
     display: flex;
     flex-direction: column;
-    gap:15px
+    gap: 15px;
 
-}
-
-.Label {
-
+  }
+  
+  .Label {
     font-weight: bold;
     font-size: 0.8rem;
-
-}
-
-select {
-
+  }
+  
+  select {
     height: 40px;
-
-}
-
-.formTitle {
-
+  }
+  
+  .formTitle {
     font-weight: bolder;
     width: 400px;
-
-}
-
-.buttonInscriptionForm {
-
+  }
+  
+  .buttonInscriptionForm {
     display: flex;
     flex-direction: column;
     gap: 15px;
     text-align: center;
     padding-top: 20px;
-
-}
-
-.buttonInscriptionForm a {
-
-        display: inline-block;
-        color: #0EA0E4;
-}
-
-.buttonInscriptionForm button {
-
-    background-color:#0EA0E4;
+  }
+  
+  .buttonInscriptionForm a {
+    display: inline-block;
+    color: #0ea0e4;
+  }
+  
+  .buttonInscriptionForm button {
+    background-color: #0ea0e4;
     height: 40px;
-    color: #FFFFFF;
+    color: #ffffff;
     border-radius: 10px;
     border: none;
     width: 100%;
-
-
-}
-
-#formInscription {
-
+  }
+  
+  #formInscription {
+    
     display: flex;
-    /* gap: 10px; */
-    background-color:#F1FAFE;
-    border: 1px solid #FFFFFF;
+    background-color: #f1fafe;
+    border: 1px solid #ffffff;
     border-radius: 15px;
     padding: 35px;
     position: relative;
     height: 670px;
-
-}
-
-.cardexemple {
-
+    flex-direction: initial;
+  
+   
+  }
+  
+  .cardexemple {
     position: relative;
    
-
-}
-
-.manyExpert {
-
+  }
+  
+  .manyExpert {
     /* position: absolute;
-    right: 10px; */
+      right: 10px; */
     /* display: block; */
-    transform: translate3d(0,-50px,0);
-
-}
-
-#searchJob {
-
+    transform: translate3d(0, -50px, 0);
+  }
+  
+  #searchJob {
     text-align: center;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     padding: 25px;
     border-radius: 15px;
-    border: 1px solid #F5F5F5;
+    border: 1px solid #f5f5f5;
     width: 1000px;
     position: absolute;
-    left: 150px ;
-
-}
-
-.parentContainer {
-
+    left: 150px;
+  }
+  
+  .parentContainer {
     position: relative;
     height: 350px;
-
-
-}
-
-#searchJob span {
-
+   
+  }
+  
+  #searchJob span {
     display: block;
-
-}
-
-#searchJob h2 {
-
+  }
+  
+  #searchJob h2 {
     padding-bottom: 20px;
-
-}
-
-
-#searchJob input {
-
+  }
+  
+  #searchJob input {
     /* background-color: red; */
     width: 510px;
     height: 61px;
-    border: 1px solid #777A88 ;
+    border: 1px solid #777a88;
     /* border-top-left-radius: 150px;
-    border-bottom-left-radius: 150px;
-    border-top-right-radius: 255px;
-    border-right: 5px solid transparent;
-    border-bottom-right-radius: 750px; */
+      border-bottom-left-radius: 150px;
+      border-top-right-radius: 255px;
+      border-right: 5px solid transparent;
+      border-bottom-right-radius: 750px; */
     /* transform: skew(-40deg,10deg); */
     /* border-radius: 15px; */
     /* -webkit-clip-path: polygon(0 0, 100% 0%, 92% 100%, 0% 100%);
-clip-path: polygon(0 0, 100% 0%, 92% 100%, 0% 100%); */
-
-
-
-
-}
-
-
-
-
-#searchJob input::placeholder {
-
-    color:#777A88;
-
-
-}
-
-#searchJob button {
-
-
+  clip-path: polygon(0 0, 100% 0%, 92% 100%, 0% 100%); */
+  }
+  
+  #searchJob input::placeholder {
+    color: #777a88;
+  }
+  
+  #searchJob button {
     width: 150px;
     height: 50px;
     /* border: none; */
-    background-color: #0EA0E4;
+    background-color: #0ea0e4;
     /* -webkit-clip-path: polygon(21% 1%, 100% 0%, 100% 100%, 0% 100%);
-    clip-path: polygon(21% 1%, 100% 0%, 100% 100%, 0% 100%); */
-    
-    
-    -webkit-clip-path: polygon(53% 0, 100% 0, 100% 60%, 100% 100%, 0 100%, 4% 82%, 19% 0);
+      clip-path: polygon(21% 1%, 100% 0%, 100% 100%, 0% 100%); */
+  
+    -webkit-clip-path: polygon(
+      53% 0,
+      100% 0,
+      100% 60%,
+      100% 100%,
+      0 100%,
+      4% 82%,
+      19% 0
+    );
     clip-path: polygon(53% 0, 100% 0, 100% 60%, 100% 100%, 0 100%, 4% 82%, 19% 0);
     /* border-top-right-radius: 200px; */
-   border-radius: 10px;
+    border-radius: 10px;
     /* border-color: red; */
-    transform: translate3d(0,5px,0);
+    transform: translate3d(0, 5px, 0);
     /* border-left: 20px solid red; */
-    
-    
-
-}
-
-
-
-.searchBar {
-
+  }
+  
+  .searchBar {
     padding-top: 40px;
-
-
-}
-
-.commentCamarche {
-
-   text-align: center;
-   /* background-color: aquamarine; */
-
-}
-
-
-.commentCamarche h2 {
-
+  }
+  
+  .commentCamarche {
+    text-align: center;
+    /* background-color: aquamarine; */
+  }
+  
+  .commentCamarche h2 {
     font-weight: bold;
     font-size: 3rem;
-
-
-}
-
-
+  }
+  /***click eyes**/
+  #eye_slash {
+    position: absolute;
+    right: 15px;
+    top: 35px;
+    display: none;
+    cursor: pointer;
+    /* background: red; */
+    width: 20px;
+    height: 20px;
+  }
+  #Eye {
+    position: absolute;
+    right: 15px;
+    top: 35px;
+    cursor: pointer;
+    /* background: green; */
+    width: 20px;
+    height: 20px;
+  }
+  

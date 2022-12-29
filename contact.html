@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<div id="bloc_Page">
+
     <div class="imgHeader">
 
         <a href="./index.html"> <img src="./images/logo.svg" alt="logo JobatHome "></a>
@@ -105,28 +105,28 @@
                 
                                 <div class="space">
                 
-                                    <label>Nom et prénom*</label>
-                                    <input type="text" required class="borderInput">
+                                    <label for="firstNameAndLastName">Nom et prénom*</label>
+                                    <input type="text" required class="borderInput" id="firstNameAndLastName">
                 
                                 </div>
                 
                                 <div class="space">
                 
-                                    <label>Adresse Email *</label>
-                                    <input type="text" required class="borderInput">
+                                    <label for="AdresseEmail">Adresse Email *</label>
+                                    <input type="text" required class="borderInput" id="AdresseEmail">
                 
                                 </div>
                 
                                 <div class="space">
                 
-                                    <label>Sujet</label>
-                                    <input type="text" required class="borderInput">
+                                    <label for="subject">Sujet</label>
+                                    <input type="text" required class="borderInput" id="subject">
                 
                                 </div>
                 
                                 <div class="space">
                 
-                                    <label>Message</label>
+                                    <label for="message">Message</label>
                                     <input type="text" required id="msg">
                                 
                 
@@ -172,7 +172,7 @@
 
     </header>
 
-    <main>
+    <main id="body">
 
 
                <div class="container py-5 mt-5">
@@ -323,9 +323,10 @@
     
     
               
-</div>
+
 
     
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+<script type="module" src="./js/pages/contact.js"></script>
 </html>
